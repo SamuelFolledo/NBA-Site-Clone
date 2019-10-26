@@ -41,6 +41,15 @@ body {
     opacity: 0.5; /* Tone the image down further by giving it transparency */
 }
 
+.navbar-brand {
+    margin: 12px 0 0 10;
+    display: inline-block;
+    background: url(./static/photos/nbaLogo.png) 0 0 no-repeat;
+    background-size: 80%;
+    width: 68px;
+    height: 30px;
+}
+
 .footer {
     background-color:white;
 }
