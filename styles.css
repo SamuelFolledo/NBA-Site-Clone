@@ -1,0 +1,37 @@
+/* styles.css */
+
+body {
+    color: white; /* background-color, color, border-color */
+}
+
+.navbar {
+    padding: 1rem;
+    background-color:  #1D428A;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color:  #1D428A;
+}
+
+.btn-primary:hover {
+    background-color:  #1D428A;
+    color: black;
+}
+
+.footer {
+    background-color:white;
+}
+
+/* href color */
+ul.nav li a, ul.nav li a:visited {
+    color: purple !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: gold !important;
+}
+
+ul.nav li.active a {
+    color: #1D428A !important;
+}
