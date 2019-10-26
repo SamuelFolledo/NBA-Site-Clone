@@ -1,7 +1,13 @@
 /* styles.css */
 
 body {
-    color: white; /* background-color, color, border-color */
+    background-color:whitesmoke;
+    color: black; /* background-color, color, border-color */
+}
+
+.off-white {
+    background-color: whitesmoke;
+    color: black;
 }
 
 .navbar {
