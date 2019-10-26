@@ -11,16 +11,16 @@ NBA's nba.com website clone for my Software Product Development (SPD1.2) class i
 
 ## Screenshots
 ### Navigation Bar and Jumbotron
-![Navigation Bar and Jumbotron](/static/screenshots/navBarAndJumbotron.png)
+![Navigation Bar and Jumbotron](/static/screenshots/navAndJumbo.png)
 ---
 ### About Last Night and Features
-![About Last Night and Features](/static/screenshots/navBarAndJumbotron.png)
+![About Last Night and Features](/static/screenshots/features.png)
 ---
 ### Editor's Pick and Around The League
-![Editor's Pick and Around The League](/static/screenshots/navBarAndJumbotron.png)
+![Editor's Pick and Around The League](/static/screenshots/editorsPick.png)
 ---
 ### Video and Footer
-![Video and Footer](/static/screenshots/navBarAndJumbotron.png)
+![Video and Footer](/static/screenshots/footer.png)
 ---
 
 
