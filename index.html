@@ -63,11 +63,41 @@
     </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pick 'Em</a>
+            <li>
+              <div class="dropdown-container">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Pick 'Em
+                  </a> <!--has dropdown-->
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">
+                        <p class="text-white">NBA Pick 'Em</p>
+                      </a>
+                      <a class="dropdown-item" href="#"><p class="text-white">Team Win Totals</p></a>
+                      <a class="dropdown-item" href="#"><p class="text-white">Weekly 6</p></a>
+                      <a class="dropdown-item" href="#"><p class="text-white">Primetime Picks</p></a>
+                    </div>
+              </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
+            <li>
+              <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Shop
+              </a> <!--has dropdown-->
+              <div class="dropdown-container">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#"><p class="text-white">Jerseys</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Men</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Women</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Kids</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Custom Shop</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Hardwood Classics</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Hats</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Footwear</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Auctions</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">NBA Game Worn</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">NYC Store</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">NBA Photo Store</p></a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Tickets</a>
@@ -76,96 +106,105 @@
                 <a class="nav-link" href="#">NBA League Pass</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <img alt="Profile Button for NavBar" data-align="center" data-entity-type="file" src="./static/photos/profileNav.png" width="30" height="30">
-                </a>
+              <div class="dropdown-container">
+                <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img alt="Profile Button for NavBar" data-align="center" data-entity-type="file" src="./static/photos/profileNav.png" width="30" height="30"> <!--has dropdown-->
+                </a> <!--has dropdown-->
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#"><p class="text-white">Account Details</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Help</p></a>
+                  <a class="dropdown-item" href="#"><p class="text-white">Hide Scores</p></a>
+                </div>
+              </div>
             </li>
         </ul>
     </div>
   </nav>
 
 <!--Scores and schedules-->
-  <div class = "row off-white">
-    <div class="col-md-2">
-      <div class="card" style="width: 10rem;">
-        <img src="./static/photos/leaguePass.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">October 22-29</p>
-          <a href="#" class="btn btn-primary">Previous Day</a>
+  <div class="container">
+      <div class="row off-white" style="padding:auto;">
+        <div class="h-100 col-2">
+          <div class="card" style="width: 10rem;">
+            <img src="./static/photos/leaguePass.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">October 22-29</p>
+              <a href="#" class="btn btn-primary">Previous Day</a>
+            </div>
+          </div>
+        </div>
+        <div class="h-100 col-8"> <!-- scores -->
+          <div class="card">
+            <div class="row">
+                <div class="col-md-2">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">LAL vc LAC</h5>
+                      <p class="card-text">100-98</p>
+                      <p class="card-text"><small class="text-muted">Q4 - 0:24 left</small></p>
+                      <a href="#" class="btn btn-primary">Watch</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2"> 
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">MIA vs CEL </h5>
+                      <p class="card-text">63-45</p>
+                      <p class="card-text"><small class="text-muted">Q3 - 3:30 left </small></p>
+                      <a href="#" class="btn btn-primary">Watch</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2"> 
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bold">GSW vs NYK </h5>
+                      <p class="card-text">44-41</p>
+                      <p class="card-text"><small class="text-muted">Q2 - 6:30 left </small></p>
+                      <a href="#" class="btn btn-primary">Watch</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2"> 
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title font-weight-bold">ATL vs BOS</h5>
+                        <p class="card-text">12-20</p>
+                        <p class="card-text"><small class="text-muted"> Q1 - 4:19 left</small></p>
+                        <a href="#" class="btn btn-primary">Watch</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-2"> 
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title font-weight-bold">MIN vs PHX</h5>
+                        <p class="card-text">0-0</p>
+                        <p class="card-text"><small class="text-muted">Q1 - 12:00 </small></p>
+                        <a href="#" class="btn btn-primary">Watch</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-2"> 
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title font-weight-bold">TOR vs DET</h5>
+                        <p class="card-text">0-0</p>
+                        <p class="card-text"><small class="text-muted">Q1 - 12:00 </small></p>
+                        <a href="#" class="btn btn-primary">Watch</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="h-100 col-2">
+          <div class="card align-items-center mx-auto align-self-stretch" style="width: 10rem;">
+            <a href="#" class="btn btn-primary">All Scores</a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-8"> <!-- scores -->
-      <div class="card">
-        <div class="row">
-            <div class="col-md-2">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title font-weight-bold">LAL vc LAC</h5>
-                  <p class="card-text">100-98</p>
-                  <p class="card-text"><small class="text-muted">Q4 - 0:24 left</small></p>
-                  <a href="#" class="btn btn-primary">Watch</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2"> 
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title font-weight-bold">MIA vs CEL </h5>
-                  <p class="card-text">63-45</p>
-                  <p class="card-text"><small class="text-muted">Q3 - 3:30 left </small></p>
-                  <a href="#" class="btn btn-primary">Watch</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2"> 
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title font-weight-bold">GSW vs NYK </h5>
-                  <p class="card-text">44-41</p>
-                  <p class="card-text"><small class="text-muted">Q2 - 6:30 left </small></p>
-                  <a href="#" class="btn btn-primary">Watch</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2"> 
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title font-weight-bold">ATL vs BOS</h5>
-                    <p class="card-text">12-20</p>
-                    <p class="card-text"><small class="text-muted"> Q1 - 4:19 left</small></p>
-                    <a href="#" class="btn btn-primary">Watch</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-md-2"> 
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title font-weight-bold">MIN vs PHX</h5>
-                    <p class="card-text">0-0</p>
-                    <p class="card-text"><small class="text-muted">Q1 - 12:00 </small></p>
-                    <a href="#" class="btn btn-primary">Watch</a>
-                  </div>
-                </div>
-            </div>
-            <div class="col-md-2"> 
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title font-weight-bold">TOR vs DET</h5>
-                    <p class="card-text">0-0</p>
-                    <p class="card-text"><small class="text-muted">Q1 - 12:00 </small></p>
-                    <a href="#" class="btn btn-primary">Watch</a>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="card align-items-center mx-auto align-self-stretch" style="width: 10rem; height: 190px;">
-        <a href="#" class="btn btn-primary">All Scores</a>
-      </div>
-    </div>
   </div>
 
   <br>
@@ -280,23 +319,19 @@
             <h4 class="font-weight-bold">FEATURES</h4>
             <div class="card">
                 <div class="row">
-                    <div class="col-md-6">
-                      <div class="card-body">
-                        <img class="card-img-top" src="./static/photos/video.png" alt="Card image cap">
-                        <h5 class="card-title font-weight-normal pt-2">Video Title</h5>
-                        <p class="card-text"><small class="text-muted">2hrs ago</small></p>
-                      </div>
-                    </div>
+                  <div class="col-md-6">
+                      <img class="card-img-top pt-3 pl-3" src="./static/photos/video.png" alt="Card image cap">
+                      <h5 class="card-title font-weight-normal pl-3 pt-2">Video Title</h5>
+                      <p class="card-text pl-3"><small class="text-muted">2hrs ago</small></p>
+                  </div>
                   
                   <div class="col-md-6"> <!-- the right half-->
-
                     <!-- <div class="row"> -->
                       <div class="col-md-12">
-                        
                           <div class="card"> <!--vertically-->
                             <div class="col-md-12">
                               <div class="row no-gutters">
-                                <div class="col-md-6">
+                                <div class="col-md-6 pt-3 pb-3">
                                     <img src="./static/photos/video.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-md-6">
@@ -311,7 +346,7 @@
                         <div class="card"> <!--vertically-->
                           <div class="col-md-12">
                             <div class="row no-gutters">
-                              <div class="col-md-6">
+                              <div class="col-md-6 pt-3 pb-3">
                                   <img src="./static/photos/video.png" class="img-fluid" alt="">
                               </div>
                               <div class="col-md-6">
@@ -324,7 +359,7 @@
                         <div class="card"> <!--vertically-->
                           <div class="col-md-12">
                             <div class="row no-gutters">
-                              <div class="col-md-6">
+                              <div class="col-md-6 pt-3 pb-3">
                                   <img src="./static/photos/video.png" class="img-fluid" alt="">
                               </div>
                               <div class="col-md-6">

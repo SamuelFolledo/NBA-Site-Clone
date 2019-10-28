@@ -25,6 +25,21 @@ body {
     color: black;
 }
 
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Bottom of button */
+    right: 0;
+    margin-left: -100px; /* More to the left */
+    background-color: darkblue;
+}
+
+.dropdown-menu > a:hover, .dropdown-menu > a:focus {
+    background-color:black;
+}
 
 .navbar-brand {
     margin: 12px 0 0 10;
