@@ -35,7 +35,7 @@ body {
 .hero-background-img:after {
     content: "";
     position: absolute;
-    background-image: url("./static/photos/jumbotron.png"); /*or pass in a url*/
+    background-image: url("https://www.nba.com/images/cms/2019-10/wiggins-towns-celebrate.jpg?cw=2090&w=2954&x=0&ch=1176&h=1970&y=491"); /*or pass in a url*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
