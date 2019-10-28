@@ -25,27 +25,6 @@ body {
     color: black;
 }
 
-.hero-background-img {
-    position: relative;
-    background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
-    padding-top:300px; /* padding for the content inside the image */
-    padding-bottom:300px;
-}
-  
-.hero-background-img:after {
-    content: "";
-    position: absolute;
-    background-image: url("https://www.nba.com/images/cms/2019-10/wiggins-towns-celebrate.jpg?cw=2090&w=2954&x=0&ch=1176&h=1970&y=491"); /*or pass in a url*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1; /*puts the image on the back*/
-    opacity: 0.5; /* Tone the image down further by giving it transparency */
-}
 
 .navbar-brand {
     margin: 12px 0 0 10;
