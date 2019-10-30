@@ -10,8 +10,11 @@ NBA's nba.com website clone for my Software Product Development (SPD1.2) class i
 - CSS
 
 ## Screenshots
-### Navigation Bar and Jumbotron
-![Navigation Bar and Jumbotron](/static/screenshots/navAndJumbo.png)
+### Home and Navigation Bar
+![Home and Navigation Bar](/static/screenshots/home.png)
+---
+### Home's Navigation Dropdown with Carousel
+![Home's Navigation Dropdown with Carousel](/static/screenshots/navDropDown.png)
 ---
 ### About Last Night and Features
 ![About Last Night and Features](/static/screenshots/features.png)
